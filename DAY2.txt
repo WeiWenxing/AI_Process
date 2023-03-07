@@ -1,0 +1,15 @@
+零基础#AI绘画 第二天
+
+
+#AI绘画 #SD #Stable Diffusion
+最近AI绘画很火爆，也想尝试一把，对绘画零基础，纯小白，看了一些资料，决定开始动手。
+
+学习了一些资料，了解到AI作画的几个关键要素：
+1. 大模型
+2. Lora插件（头像模型）
+3. ControlerNet插件（姿态）
+
+我部署的webui上直接内置了Lora模块，对这些也不太懂，就随意按照很多人的推荐，下载了chilloutmix模型，然后随便找了一个promot词汇，类似这种：
+Extremely beautiful girl with a sexy body
+
+没想到直接出来一张少儿不宜的图片，赶紧删掉，然后认真再去研究资料，又下载了一个gufeng2的大模型和lora模型，按照作者的推荐prompt，生成了几张图片。

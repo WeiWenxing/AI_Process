@@ -1,0 +1,28 @@
+工具篇
+
+零基础#AI绘画 第一天
+#AI绘画 #SD #Stable Diffusion
+
+最近AI绘画很火爆，也想尝试一把，对绘画零基础，纯小白，看了一些资料，决定开始动手。
+
+
+=====工具篇=====
+找了很多资料，国内外都有不少线上的网站可以绘画，不过一般都要排队啊，收费什么的，所以决定本地部署。本地部署需要有好的电脑和显卡，正好我有个台式机，显卡是6G的n卡，刚好入门。 选择了当前最火爆的Stable Diffusion开始准备环境。
+
+网上有很多大佬讲教程，不过我看了sdwebui的官方网站，有windows、mac、linux的部署方案，我个人喜欢Linux，于是准备安装Linux系统部署。
+
+1. 安装Linux
+
+安装过程非常坑爹，本来准备安装ubuntu22.04，结果安装了两天还没成功，还把windows搞丢了，最后依然没成功，我换成了Linux mint来安装，过程惊险，不过终于成功了。
+
+2. 本地部署SDWebui
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+照官方步骤安装 sdweiui, 没遇到任何坑，直接安装成功。
+如下几步：
+sudo apt install wget git python3 python3-venv
+cd ~/stable-diffusion-webui
+wget https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh
+./webui.sh
+
+
+然后随便写了一些提示词，生成了几张图片，很一般，接下来准备继续学习，争取早日画出好看的图片。
